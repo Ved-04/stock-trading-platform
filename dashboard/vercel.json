@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": "build",
+  "env": {
+    "REACT_APP_API_URL": "@REACT_APP_API_URL"
+  },
+  "routes": [
+    {
+      "src": "^/(?!api).*",
+      "dest": "/index.html"
+    }
+  ]
+}
